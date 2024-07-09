@@ -4,7 +4,7 @@ function Collaborator(){
         {Name : "Lokesh MV", image:"./src/assets/lokeshMV.png"},
         {Name : "Chirag Bhalotia", image:"./src/assets/chirag.png"},
         {Name : "Bhavani Prasad", image:"./src/assets/bhavaniPrasad.png"},
-        {Name : "Sinath", image:"./src/assets/srinath.png"}
+        {Name : "Srinath", image:"./src/assets/srinath.png"}
     ]
     return (
         <>

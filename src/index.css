@@ -467,3 +467,6 @@ section#contact {
     margin: 0px !important;
   }
 }
+section#contact {
+  margin-bottom: 60px !important;
+}
