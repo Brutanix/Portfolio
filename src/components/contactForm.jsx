@@ -10,7 +10,7 @@ function ContactForm(){
             </div>
             <div id="formsend">
             <textarea style={{resize:"none"}} placeholder="Message"></textarea>
-            <button type="button">Send!<img src="./src/assets/sendIcon.png" alt="Send Icon" /></button>
+            <button type="button" style={{cursor:"pointer"}}>Send!<img src="./src/assets/sendIcon.png" alt="Send Icon" /></button>
             </div>
             </form>
         </div>

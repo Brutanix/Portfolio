@@ -1,10 +1,10 @@
 function Collaborator(){
     const CollaboratorsDetails = [
         {Name : "Karthik Deshmukh", image:"./src/assets/karthikDeshmukh.png"},
-        {Name : "Lokesh MV(Okay Anna)", image:"./src/assets/lokeshMV.png"},
-        {Name : "Chirag Bhalotia(Angry Dude)", image:"./src/assets/chirag.png"},
+        {Name : "Lokesh MV", image:"./src/assets/lokeshMV.png"},
+        {Name : "Chirag Bhalotia", image:"./src/assets/chirag.png"},
         {Name : "Bhavani Prasad", image:"./src/assets/bhavaniPrasad.png"},
-        {Name : "Sinath Lee", image:"./src/assets/srinath.png"}
+        {Name : "Sinath", image:"./src/assets/srinath.png"}
     ]
     return (
         <>

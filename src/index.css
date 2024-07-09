@@ -12,6 +12,7 @@ div#root {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 120px !important;
 }
 #hero {
   width: 800px;
@@ -22,6 +23,9 @@ div#root {
 }
 #BrutanixLogoHero {
   margin-bottom: 66px;
+}
+section {
+  margin: 0px !important;
 }
 p.sectionHeading {
   font-family: "Newsreader", serif;
@@ -220,7 +224,7 @@ marquee {
   flex-wrap: wrap;
 }
 .collaboratorCard {
-  padding: 8px;
+  padding: 8px 16px 8px 8px;
   background-color: #f8f8f8;
   display: flex;
   flex-direction: row;
@@ -325,11 +329,14 @@ section#contact {
 @media only screen and (max-width: 500px) {
   section#hero {
     width: 100%;
-    padding: 60px 32px;
-    margin: 0px;
+    padding: 0px 32px 0;
+    margin: 60px 32px 0px !important;
+  }
+  #BrutanixLogoHero {
+    margin-bottom: 48px;
   }
   p.sectionHeading {
-    margin: 0 0 16px 0;
+    margin: 0 0 16px 0 !important;
   }
 
   p.Text {
@@ -338,10 +345,13 @@ section#contact {
   section#hero p.Text {
     margin-bottom: 32px;
   }
+  #bestDesigns {
+    width: 100%;
+  }
   .bestDesign {
     overflow: hidden;
     position: relative;
-    margin-right: 40px;
+    margin-right: 28px;
     min-width: 240px;
     min-height: 240px;
   }
@@ -351,15 +361,18 @@ section#contact {
     left: 40px;
     box-shadow: -0px -0px 30px 10px rgba(0, 0, 0, 0.1);
   }
-
-  section#clients,
   section#services,
   section#deck {
-    padding: 60px 32px 80px;
+    padding: 0px 32px !important;
+    width: 100%;
+  }
+  section#clients {
+    margin: 0px 32px;
     width: 100%;
   }
   .clientCards,
   div.clientCard {
+    width: 100%;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -396,7 +409,7 @@ section#contact {
   section#deck,
   section#collaborators {
     width: 100%;
-    padding: 60px 16px;
+    padding: 0px 16px;
   }
   section#deck p.Text {
     margin-bottom: 24px;
@@ -409,7 +422,7 @@ section#contact {
     margin-bottom: 24px;
   }
   section#onlinePresence {
-    padding: 60px 32px;
+    padding: 0px 32px;
     width: 100%;
   }
   #onlinePresence p.Text {
@@ -425,7 +438,7 @@ section#contact {
     margin-bottom: 16px;
   }
   section#contact {
-    padding: 60px 32px;
+    padding: 0px 32px;
     width: 100%;
   }
   section#contact p.Text {
