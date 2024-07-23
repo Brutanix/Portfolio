@@ -1,12 +1,22 @@
-import Home from "./components/Home";
-
+import Home from "./pages/home";
+import About from "./pages/about";
+import React from "react";
+import Navbar from "./components/Navbar";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+} from "react-router-dom";
 function App() {
-
   return (
-    <>
-      <Home />
-    </>
-  )
+      <Router>
+          <Navbar />
+          <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+          </Routes>
+      </Router>
+  );
 }
 
 export default App;
